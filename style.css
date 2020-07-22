@@ -1,59 +1,100 @@
-#titulo-1 {
+h1 {
     font-family: fantasy;
     color: rgb(245, 245, 242);
     text-align: center;
     font-style: italic;
     background-color: rgb(148, 146, 89);
-    font-size: 1em;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+#titulo1 {
+    font-family: fantasy;
+    color: rgb(245, 245, 242);
+    text-align: center;
+    font-style: normal;
+    background-color: rgb(148, 146, 89);
+    font-size: 3em;
+    font-weight: initial;
 
 }
 
-#yayo {
-    font-size: 1em;
-
+#tabla1 {
+    position: unset;
+    display: table-row-group;
+    margin-left: auto;
+    margin-right: auto;
+    font: -webkit-small-control;
+    color: rgb(245, 245, 242);
+    text-decoration: underline;
+    font-size: larger;
 }
 
-#yayo2 {
+a:-webkit-any-link {
+    color: rgb(148, 146, 89);
+    cursor: grabbing;
+    text-decoration: solid;
+}
+
+table {
+    border-collapse: separate;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    text-align: start;
+    border-spacing: 50;
+    font-variant: normal;
+    background-color: rgb(245, 245, 242);
+    margin: 12;
+}
+
+#titulo2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
     font-size: 2em;
+    font-weight: initial;
 }
 
-#titulo-2 {
+h3 {
+
     text-align: center;
-    color: rgb(199, 187, 112);
+    color: rgb(148, 146, 89);
 }
 
-.inicio {
-    font-size: 11px;
-    background-color: rgb(199, 187, 112);
-}
-
-#j-a {
+h5 {
     text-align: center;
-    background-color: rgb(247, 247, 242);
-    color: rgb(199, 187, 112)
+    font-size: 25;
+    color: rgb(148, 146, 89);
+    text-decoration: underline;
+
+
 }
 
-#fecha {
-    text-align: center;
-    font-family: futura;
+#confirmNameInput {
+    position: relative;
+    margin: 20px;
+    width: calc(100% - 4.0rem - 4px);
+    margin-top: 1.0rem;
+    padding: 1.4rem 0.7rem 1.4rem 0.6rem;
+    font: normal 1.4rem latoRegular;
+    color: rgb(179, 179, 86)
 }
 
-#numero {
-    text-align: center;
-    font: normal 1.5rem illusiasRegular;
-    font-style: italic;
-    color: rgb(105, 89, 35);
+.boton a {
+    color: rgb(130, 123, 21);
 }
 
-.titulo-3 {
-    font-family: futura;
-    background-color: rgb(199, 187, 112);
-    color: rgb(247, 247, 242);
+.boton:hover {
+    box-shadow: inset 0 0 20px rgba(133, 127, 56, 0.5), 0 0 20px rgba(207, 199, 106, 0.4);
+    outline-color: rgba(196, 201, 100, 0);
+    outline-offset: 80px;
+    text-shadow: 1px 1px 6px #fff;
 }
 
 .boton {
-    text-align: center;
-    text-decoration: none;
+    text-align: center text-decoration: none;
     padding: 50px;
     font-size: 40px;
     color: rgb(245, 245, 240);
@@ -65,64 +106,38 @@
     position: relative;
     outline: 12px solid;
     transition: all 2s cubic-bezier(0.19, 1, 0.22, 1);
-
-}
-
-.boton:hover {
-    box-shadow: inset 0 0 20px rgba(133, 127, 56, 0.5), 0 0 20px rgba(207, 199, 106, 0.4);
-    outline-color: rgba(196, 201, 100, 0);
-    outline-offset: 80px;
-    text-shadow: 1px 1px 6px #fff;
-
-}
-
-.boton a {
-    color: rgb(130, 123, 21);
-}
-
-#confirmNameInput {
-    position: relative;
-    margin: 20px;
-    width: calc(100% - 4.0rem - 4px);
-    margin-top: 1.0rem;
-    padding: 1.4rem 0.7rem 1.4rem 0.6rem;
-    font: normal 1.4rem latoRegular;
-
-    color: rgb(179, 179, 86);
-
-}
-
-#luna-miel {
-    text-align: center;
-    font-family: futura;
-    color: rgb(150, 224, 214);
-}
-
-#parrafo-1 {
-    text-align: center;
-    font-family: futura;
-    color: rgb(81, 97, 97);
-
-
 }
 
 .imagen-imagen {
     position: relative;
     float: relative;
-    width: 25%;
+    width: 30%;
     margin-top: 2.3rem;
     border-radius: 200%;
-    height: 100px;
+    height: 300px;
+}
+
+p {
+    text-align: center;
+    font-size: medium;
+    color: black;
+    font-style: initial;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #parrafo-3 {
     position: relative;
     margin-left: 1%;
     margin-top: 4.2rem;
-    font: normal 1.0rem;
+    font: normal 1.0rem latoLight;
     color: rgb(81, 97, 97);
     line-height: 150%;
     text-align: center;
+}
+
+element.style {
+    clear: left;
+    margin-left: 0%;
 }
 
 #infoMenuItemsWrapper {
@@ -142,7 +157,7 @@
     margin: 72px;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    font: normal 1.2rem;
+    font: normal 1.2rem spiraxRegular;
     color: rgb(204, 202, 137);
     text-decoration: none;
     text-align: center;
@@ -150,13 +165,8 @@
     border: solid 2px rgb(168, 165, 84);
     border-radius: 8px;
     cursor: pointer;
+    -webkit-transition: all -0.8s 0s ease;
     transition: all -1.2s 0s ease;
-
-}
-
-.titulos-4 {
-    color: rgb(199, 187, 112);
-    font-family: futura;
 }
 
 .fecha-hora {
